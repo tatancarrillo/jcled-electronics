@@ -3,6 +3,16 @@
 	"compatibility_date": "2025-10-08",
 	"compatibility_flags": ["nodejs_compat"],
 	"main": "./dist/_worker.js/index.js",
+	"routes": [
+		{
+			"pattern": "jcledelectronics.com",
+			"custom_domain": true
+		},
+		{
+			"pattern": "www.jcledelectronics.com",
+			"custom_domain": true
+		}
+	],
 	"assets": {
 		"directory": "./dist",
 		"binding": "ASSETS"
